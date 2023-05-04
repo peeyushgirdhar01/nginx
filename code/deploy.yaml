@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
+        image: nginx:1.21.6 #{"$imagepolicy":"default:nginxapp"}
         ports:
         - containerPort: 80
