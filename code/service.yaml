@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: public-svc
-  namespace: sre
+  namespace: default
 spec:
   type: LoadBalancer
   ports:
