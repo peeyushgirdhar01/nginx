@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: fluxautomation.azurecr.io/apps/nginx:1.23.4 #{"$imagepolicy":"default:nginxapp"}
+        image: fluxautomation.azurecr.io/apps/nginx:1.23.5 #{"$imagepolicy":"default:nginxapp"}
         ports:
         - containerPort: 80
