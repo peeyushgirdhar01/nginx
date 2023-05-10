@@ -1,0 +1,13 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: sre-team
+  namespace: sre
+spec:
+  interval: 1m0s
+  ref:
+    branch: master
+  secretRef:
+    name: gitops-lab-deploy-auth
+  url: ssh://github.com/peeyushgirdhar01/nginx
